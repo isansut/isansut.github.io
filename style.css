@@ -1,0 +1,54 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* Menggunakan font yang umum dan mudah dibaca */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Latar belakang yang lembut */
+    color: #333; /* Warna teks yang kontras */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #2980b9; /* Warna biru yang menarik */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus untuk tampilan 3D */
+    overflow: hidden; /* Menyembunyikan overflow untuk tampilan yang rapi */
+}
+
+th, td {
+    padding: 12px 15px; /* Ruang yang lebih lega */
+    text-align: left;
+    vertical-align: middle; /* Menengahkan teks secara vertikal */
+}
+
+th {
+    background-color: #3498db; /* Warna biru yang lebih tua */
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) { /* Mewarnai baris genap */
+    background-color: #f9f9f9;
+}
+
+tr:hover { /* Efek hover pada baris */
+    background-color: #e0e0e0;
+}
+
+a {
+    color: #2980b9; /* Warna link yang sama dengan judul */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
